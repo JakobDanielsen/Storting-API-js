@@ -41,7 +41,7 @@ async function drawParliament() {
 
         // Card
         const card = document.createElement("div");
-        card.classList.add("card", "col-6", "col-md-4", "col-lg-2", "m-2");
+        card.classList.add("card", "col-12", "col-md-4", "col-lg-2", "m-2");
         if (r.kjoenn == 1) {
             card.classList.add("bg-danger")
         } else if (r.kjoenn == 2) {
